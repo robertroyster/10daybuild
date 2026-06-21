@@ -1,0 +1,19 @@
+{
+  "_comment": "Maps the local claude/ workspace to its Google Drive mirror. Used when the user asks to sync to/from Drive. Format choice: daily + notes are Google Docs (phone-friendly); tasks/tracker/planner are .md files (structure preserved). Sync is one-way-on-request in both directions, never automatic.",
+  "rootFolderId": "1U1Htc6EaCkh8O9dp8eDHi5MsrCqiwrj4",
+  "rootUrl": "https://drive.google.com/drive/folders/1U1Htc6EaCkh8O9dp8eDHi5MsrCqiwrj4",
+  "folders": {
+    "daily": "1wec1M4OAoeI6PAV_25puD512EOeM2NXE",
+    "notes": "1Es0thD5x8ZuuttaMa1kHqxzyt54Nbz7u",
+    "tasks": "1qghcmIlpAvr_ArM_ZvitdWVXw7GIVLeU",
+    "tracker": "1ZHsyfgb4hKecjsSCmL8T-ExoyOzE0uwD",
+    "planner": "1Aeo7cCuv0V9LKPYKljnGtDhcySqPux2E"
+  },
+  "files": {
+    "daily/2026-06-21.md": { "driveId": "1NKWhS7L8QcUbz6ncd2hdZb41eMvQqVnqyOqbHGCsCxg", "type": "google-doc" },
+    "notes/welcome.md": { "driveId": "1UyuMqdX75sPhpQlr26cVW6i3syunU4DPXC02z4UEL2s", "type": "google-doc" },
+    "tasks/tasks.md": { "driveId": "1Q6zshH9_hiNIlpiXQ_ztusVfYgCp5GPu", "type": "markdown" },
+    "tracker/pitches.md": { "driveId": "1tcnskgigCyLOxgrNYYWF6qdERbT8fDnz", "type": "markdown" },
+    "planner/today.md": { "driveId": "1g73LReEF-QIp-2W24GZmPtbDVXgF820z", "type": "markdown" }
+  }
+}

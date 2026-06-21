@@ -47,6 +47,22 @@ The typical day:
 Each folder has its own `CLAUDE.md` with the specifics. Read it before acting on
 files in that folder.
 
+## Google Drive mirror
+
+This workspace is mirrored to a phone-facing copy in Google Drive. The map of
+local file → Drive ID lives in `.drive-sync.json`. Sync is **on request, never
+automatic**, and runs both directions:
+
+- "sync to Drive" / "push to Drive" → write local files up to their Drive
+  counterparts; create new Drive files for anything not yet in the map and add
+  it to `.drive-sync.json`.
+- "pull from Drive" / "process today's Drive log" → read the Drive files back
+  down, reconcile with local, then proceed (e.g. route the daily log's items).
+
+Format split: `daily/` and `notes/` are Google Docs (phone-friendly); `tasks/`,
+`tracker/`, `planner/` are Markdown files (structure preserved). Create new daily
+files and notes as Docs; new list files as `.md`.
+
 ## Skills
 
 Saved workflows live in `.claude/skills/`. Trigger them by name (e.g.
