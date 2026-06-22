@@ -43,6 +43,7 @@ The typical day:
 | `planner/`  | Google Calendar      | `today.md` — the day's plan; `archive/`          |
 | `tasks/`    | Google Tasks         | `tasks.md` — active + done lists                 |
 | `notes/`    | Google Keep / Docs   | one Markdown file per note                       |
+| `contacts/` | Google Contacts      | one file per company/person                      |
 
 Each folder has its own `CLAUDE.md` with the specifics. Read it before acting on
 files in that folder.
